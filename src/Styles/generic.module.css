@@ -1,0 +1,37 @@
+/* THEME SWITCH */
+
+.themeSwitch {
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin: 1rem;
+  padding: 0;
+}
+
+/* SEARCH BAR */
+
+.searchContainer {
+    width: 65%;
+  }
+  
+  .searchBar, .submit {
+    border: none !important;
+    width: 100%;
+  }
+  
+  .submit {
+    height: 40%;
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    font-size: 80% !important;
+    background-color: var(--color-button) !important;
+  }
+
+  .submit:hover {
+    background-color: var(--color-button-hover) !important;
+  }
+  
+  .searchBar * {
+    border-radius: 0 !important;
+    cursor: text;
+  }

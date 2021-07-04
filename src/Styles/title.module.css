@@ -1,0 +1,51 @@
+body {
+  font-family: var(--content-font);
+  overflow-x: hidden;
+}
+
+.headerImage {
+  width: 94.8rem;
+  height: 50rem;
+  border-bottom-left-radius: 45%;
+}
+
+.headerText {
+  position: absolute;
+  top: 10%;
+  left: 7%;
+  padding: 2%;
+  width: 35rem;
+  display: flex;
+  flex-direction: column;
+  margin-right: 10rem;
+}
+
+.title {
+  letter-spacing: 0.4rem;
+  font-size: 6.3rem;
+  font-weight: 500;
+  color: transparent;
+  -webkit-text-stroke: 1px var(--color-font);
+}
+
+.secondTitle {
+  color: var(--color-font);
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+  width: 80%;
+}
+
+.buttonContainer * {
+  margin: 2rem 1rem 0 0;
+  font-family: var(--content-font);
+  border: none !important;
+}
+
+.headerButton {
+  background: var(--color-button) !important;
+}
+
+.headerButton:hover {
+  background: var(--color-button-hover) !important;
+}
